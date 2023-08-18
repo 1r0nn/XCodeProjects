@@ -14,7 +14,7 @@ I first worked on knowing and studying how each function works in OpenCV to beco
 - Utilizes the faceCascade technique for face detection in static images and real-time webcam frames.
 - Loads the pre-trained Haar Cascade classifier designed for frontal face detection.
 - Implements the detectMultiScale function to draw rectangles around identified faces within the camera frame.
-- 
+
 ## (c) Document Scanner
 - System retrieves planar documents from different angles or orientations.
 - Process includes:
