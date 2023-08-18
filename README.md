@@ -18,9 +18,9 @@ I first worked on knowing and studying how each function works in OpenCV to beco
 ## (c) Document Scanner
 - System retrieves planar documents from different angles or orientations.
 - Process includes:
--- Initial image preprocessing.
--- Contour recognition of the document.
--- Perspective transformation of the image.
--- Precise cropping for an improved document image.
+  - Initial image preprocessing.
+  - Contour recognition of the document.
+  - Perspective transformation of the image.
+  - Precise cropping for an improved document image.
 - Scanned document is returned in its correct perspective.
 - Provides valuable functionality for applications requiring these capabilities.
