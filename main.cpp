@@ -3,7 +3,7 @@
 //  OpenCV_
 //
 //  Created by Magen on 8/3/23.
-// I worked on each functionality first to understand OpenCV procedures then went on to build projects a,b,c.
+// I worked on each functionality first to understand OpenCV procedures then went on to build projects a, b and c.
 
 #include <opencv2/imgcodecs.hpp>
 #include <opencv2/highgui.hpp>
