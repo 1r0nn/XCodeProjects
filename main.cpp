@@ -3,7 +3,7 @@
 //  OpenCV_
 //
 //  Created by Magen on 8/3/23.
-//
+// I worked on each functionality first to understand OpenCV procedures then went on to build some projects.
 
 #include <opencv2/imgcodecs.hpp>
 #include <opencv2/highgui.hpp>
@@ -53,46 +53,46 @@ using namespace std;
 // webcam
 
 
-int main() {
-    // Create a VideoCapture object to access the webcam (device 0)
-    VideoCapture cap(0);
+// int main() {
+//     // Create a VideoCapture object to access the webcam (device 0)
+//     VideoCapture cap(0);
 
-    // Check if the VideoCapture object is successfully opened
-    if (!cap.isOpened()) {
-        cout << "Error: Unable to access the webcam." << endl;
-        return -1;
-    }
+//     // Check if the VideoCapture object is successfully opened
+//     if (!cap.isOpened()) {
+//         cout << "Error: Unable to access the webcam." << endl;
+//         return -1;
+//     }
 
-    // Create a Mat object to hold the webcam frame
-    Mat img;
+//     // Create a Mat object to hold the webcam frame
+//     Mat img;
 
-    // Infinite loop to continuously read and display frames from the webcam
-    while (true) {
-        // Read a frame from the webcam and store it in the 'img' Mat object
-        cap.read(img);
+//     // Infinite loop to continuously read and display frames from the webcam
+//     while (true) {
+//         // Read a frame from the webcam and store it in the 'img' Mat object
+//         cap.read(img);
 
-        // Check if the frame is empty (indicating a problem with the webcam)
-        if (img.empty()) {
-            cout << "Error: Webcam frame is empty." << endl;
-            break;
-        }
+//         // Check if the frame is empty (indicating a problem with the webcam)
+//         if (img.empty()) {
+//             cout << "Error: Webcam frame is empty." << endl;
+//             break;
+//         }
 
-        // Display the current frame from the webcam in a window titled "Webcam"
-        imshow("Webcam", img);
+//         // Display the current frame from the webcam in a window titled "Webcam"
+//         imshow("Webcam", img);
 
-        // Wait for 30 milliseconds (30ms) for a key press
-        int key = waitKey(30);
+//         // Wait for 30 milliseconds (30ms) for a key press
+//         int key = waitKey(30);
 
-        // Check if the user pressed 'q' (ASCII code 113)
-        if (key == 'q')
-            break;
-    }
+//         // Check if the user pressed 'q' (ASCII code 113)
+//         if (key == 'q')
+//             break;
+//     }
 
-    // Close the window and release the webcam
-    destroyAllWindows();
+//     // Close the window and release the webcam
+//     destroyAllWindows();
 
-    return 0;
-}
+//     return 0;
+// }
 
 // Chapter 2 - Basic Functions
 //
